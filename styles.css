@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d2efef;
+}
+
+#navbar {
+    display: flex;
+    /* width: 80px; */
+    /* height: 40px; */
+    background-color: #deeaff;
+}
+
+#logo {
+    width: 30%;
+}
+
+#h-logo {
+    width: 80px;
+}
+
+#navbar-item {
+    display: inherit;
+    width: 70%;
+    align-items: baseline;
+    margin-left: auto;
+    /* Automatically adjust left margin */
+    /* margin-right: 0; */
+    text-align: right;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 0px 10px 60%;
+}
+
+
+#navbar ul li {
+    margin-left: 20px;
+
+}
+#navbar a {
+    /* list-style: none; */
+    color: #08373c;
+    text-decoration: none;
+}
+#resume {
+    width: 6%;
+    text-align: right;
+    margin-right: 4px;
+    margin-left: 7%;
+    padding-right: 2%;
+    border: 3.5px solid rgb(122, 122, 199);
+    border-radius: 3%;
+    background-color: #AEE8EF;
+    
+}
+/* ___________________ABout__________________________ */
+
+#about {
+    display: flex;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+#about-para {
+    width: 65%;
+    text-align: center;
+}
+
+#about-img {
+    width: 35%;
+}
+
+#name-first {
+    padding-right: 45%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#name {
+    font-size: 200%;    
+}
+
+p {
+    width: 50%;
+    margin: 26px 26%;
+    font-style: oblique;
+}
+
+/* #about-img {
+    
+} */
+
+#my-pic {
+    border-radius: 20%;
+}
+
+#experience h1{
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+}
+
+#experience h2 {
+    margin: 0px 40px;
+}
+#experience h3 {
+    margin: 12px 60px;
+}
+#experience ul {
+    margin: 0px 70px;
+}
+#contact h1{
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+}
+
+#contact ul {
+   text-align: center;
+}
+
+#contact li {
+    display: inline;
+    list-style: none;
+    margin: 8px 26px;
+}
+
+#contact a {
+    /* list-style: none; */
+    color: #08373c;
+    text-decoration: none;
+}
